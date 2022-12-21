@@ -1,0 +1,89 @@
+/* Big tablets to 1200px(width smaller than the 1140 row): froom 1023px to 1200px*/
+@media only screen and (max-width: 1200px) {
+    .main-nav li{
+        margin-left: 0px;   
+        margin-right: 45px;
+    }
+    
+    .logo {
+        height: 120px;
+        width: 120px;
+    }
+    
+    .hero-text-box h1{
+        font-size: 220%;
+    }
+    
+    .hero-text-box {
+        font-size: 100%;
+        margin-left: 85px;
+    }
+    
+    .section-steps h2 {
+        margin-left: 158px
+    }
+    
+    .app-screen {
+        margin-right: 80px;
+        padding-right: 0;
+    }
+     
+    .work-step {
+        margin-right: 180px;
+        padding-right: 10px;
+        text-align: justify;
+        height: 70px;
+    }
+    
+    .work-step div {
+        margin-left: 0
+    }
+    
+    .btn-app img{
+        margin-right: 25px;
+        margin-left: 0;
+    }
+    
+    
+    .section-cities .row h2 {
+        font-size: 40px;
+    }
+    
+    .section-cities .row h2:after{
+        display: block;
+        height: 3;
+        background-color: orangered;
+        content: " ";
+        width: 800;
+        margin-top: 10;
+        margin: 18 auto;
+    }    
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+/* Small tablets to big tablets: froom 767px to 1023px*/
+@media only screen and (max-width: 1023px) {
+    
+}
+
+
+
+/* Small phones to small tablets: froom 481 to 767px*/
+@media only screen and (max-width: 767px) {
+    
+}
+
+
+/* Small phones: froom 0 to 480px*/
+@media only screen and (max-width: 480px) {
+    
+}
